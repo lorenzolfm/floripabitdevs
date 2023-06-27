@@ -17,7 +17,7 @@ Os meetups nunca são gravados. Queremos todos a vontade para participar e discu
 
 ## Agradecimentos
 
-Agradecemos à [Disrux](https://disrux.com/) por receber o meetup e à [Vinteum](https://vinteum.org/) por patrocinar as comidas e bebidas.
+Agradecemos à [Disrux](https://disrux.com/) e [Arthur Mining](https://arthurmining.com/) por receber o meetup e à [Vinteum](https://vinteum.org/) por patrocinar as comidas e bebidas.
 
 ## Aquecimento
 
