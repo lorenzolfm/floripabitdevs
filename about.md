@@ -2,54 +2,26 @@
 layout: default
 ---
 
-BitDevs is a community for those interested in discussing and participating in
-the research and development of Bitcoin and related protocols. You can be well
-versed with or new to the topics, all are welcome. Be advised: discussion will
-be technical.
+BitDevs é uma comunidade para aqueles interessados em discutir e participar da pesquisa
+e desenvolvimento do Bitcoin e protocolos relacionados. Você pode ser bem versado ou novo nos tópicos,
+todos são bem-vindos. Esteja avisado: a discussão será técnica.
 
-### Socratic Seminars
+### Seminários Socráticos
+Nossos eventos mensais de Seminários Socráticos são formatados para fomentar o debate,
+compartilhamento de informações e discussão animada. Nas semanas que antecedem o evento,
+os tópicos de discussão são compilados pelos membros do meetup a partir de uma variedade de fontes:
+PRs em repositórios populares (por exemplo, Bitcoin Core, lnd, c-lightning, BDK, LDK, Elements Alpha e Electrum),
+artigos de pesquisa, posts técnicos de blog, registros do IRC e mais.
+Após um período de discussão, alguns eventos terão apresentações de projetos de código aberto, empresas,
+pesquisas e outros conteúdos relevantes. Uma seção de feedback e perguntas e respostas segue. Após o evento,
+o grupo se reúne em um restaurante próximo para socializar.
 
-Our monthly Socratic Seminar events are formatted to foster debate, information
-sharing and lively discussion. In the weeks preceding the event, discussion
-topics are collated by meetup members from a variety of sources: pull requests
-in popular git repositories (e.g. Bitcoin Core, lnd, c-lightning, Joinmarket,
-Elements Alpha and Electrum), research papers, technical blog posts, IRC logs,
-network monitors and more. After a period of discussion, some events will have [presentations](https://bitdevs.org/presenter-guidelines/) of open source
-projects, companies, research and other relevant content. A feedback and Q&A
-section follow. After the event the group gathers at a nearby restaurant to
-socialize.
+Um boletim informativo é enviado no dia do evento que delineia os tópicos de discussão.
+Os arquivos dos tópicos de discussão e apresentações podem ser encontrados nas descrições
+dos eventos de meetups anteriores. A parte de discussão do evento NUNCA é gravada.
+É recomendado que você tenha um sólido conhecimento dos fundamentos do Bitcoin para extrair o máximo
+valor de nossos eventos Socráticos.
 
-A newsletter is sent out the day of the event which outlines discussion topics.
-Archives of discussion topics and presentations can be found in the event
-descriptions of past meetups. The discussion portion of the event is NEVER
-recorded. It is recommended that you have a firm grasp of the basics of Bitcoin
-in order to extract the most value from our Socratic events.
-
-Please contact the organizers if you'd like to present at a future Socratic
-event or have a recommended topic for discussion: bitdevsnyc at gmail. There
-are different requirements for presentations depending on the nature of the
-project.
-
-### Whitepaper Series
-
-A journal club to discuss specific topics in the Bitcoin ecosystem. This is an
-academic-style journal club where one person chooses a topic or paper and
-presents it. Participants are expected to have read the paper or other material
-suggested by the discussion leader. The discussion leader doesn’t have to be an
-expert on the subject, but should be interested enough in it to read the paper
-thoroughly so as to give a decent presentation. After informally presenting the
-topic, the group can then ask questions or open discussion surrounding the
-topic. The presentation should be informal (slides are allowed, but
-whiteboard/chalkboard is preferred), and this should be a discussion, not a
-one-way transmission of information by the presenter. The reading material
-doesn’t have to be a whitepaper. In the case of widely-known topics (such as
-Elliptic Curve encryption) a chapter of a textbook, Wikipedia article, or other
-material can be suggested.
-
-To propose a topic to present or volunteer to present a paper, please contact
-bitdevsnyc at gmail.
-
-### Debate Series
-
-Our debate series is dedicated to the investigation of controversial technical
-topics. The structure of the event is dependent on the topic of interest.
+Por favor, entre em contato com os organizadores se você gostaria de apresentar em um futuro evento 
+ou tem um tópico recomendado para discussão: floripabitdevs no gmail.
+Existem diferentes requisitos para apresentações dependendo da natureza do projeto.
