@@ -1,8 +1,8 @@
 ---
 layout: post
 type: socratic
-title: "Seminário Socrático 016"
-meetup: https://www.meetup.com/pt-BR/saopaulobitdevs/events/295005078/
+title: "Seminário Socrático #01"
+meetup: https://www.meetup.com/floripa-bitdevs/events/295057166
 ---
 
 ## Avisos
