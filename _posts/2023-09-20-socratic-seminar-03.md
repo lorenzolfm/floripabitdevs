@@ -1,7 +1,7 @@
 ---
 layout: post
 type: socratic
-title: "Seminário Socrático 02"
+title: "Seminário Socrático #02"
 meetup: https://www.meetup.com/floripa-bitdevs/events/296064899
 ---
 
