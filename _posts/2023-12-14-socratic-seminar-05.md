@@ -28,6 +28,8 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/297880665
 
 ## Seminário Socrático
 
+* [Bug no LNBank faz portugues perder 4 BTC](https://stacker.news/items/347361)
+* [datacarriersize: Match more datacarrying](https://github.com/bitcoin/bitcoin/pull/28408)
 * [Bitcoin Core 26.0](https://lists.linuxfoundation.org/pipermail/bitcoin-core-dev/2023-December/000131.html)
 * [Falsificando Wallet Fingerprint](https://gitlab.com/-/snippets/3611229)
     * [Wallet Fingerprinting](https://ishaana.com/blog/wallet_fingerprinting/)
