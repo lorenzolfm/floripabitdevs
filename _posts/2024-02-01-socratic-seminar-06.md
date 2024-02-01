@@ -18,6 +18,7 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/298872566
 
 ## Seminário Socrático
 
+* [btcd bug de consenso](https://bitcoinops.org/en/newsletters/2024/01/24/#disclosure-of-fixed-consensus-failure-in-btcd)
 * [An overview of recent non-standard Bitcoin transactions](https://b10c.me/observations/09-non-standard-transactions/)
 * [LNHance BIPS e implementacao](https://delvingbitcoin.org/t/lnhance-bips-and-implementation/376)
     * [CSFS](https://github.com/bitcoin/bips/pull/1535)
