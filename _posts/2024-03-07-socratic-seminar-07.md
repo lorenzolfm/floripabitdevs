@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "Seminário Socrático #07"
-meetup: https://www.meetup.com/clube-bitcoin-floripa/events/298872566
+meetup: https://www.meetup.com/clube-bitcoin-floripa/events/299599187
 ---
 
 ## Avisos
@@ -14,10 +14,12 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/298872566
 
 ## Agradecimentos
 
-- Agradecemos à Vinteum pela casa, comidas e bebidas.
+- Agradecemos à Vinteum e Arthur Inc. pela parceria e apoio na realização do evento.
 
 ## Aquecimento
 
+* [Novos e-mails de Satoshi - Adam Back](https://bitcoinmagazine.com/technical/bitcoin-adam-backs-complete-emails-satoshi-nakamoto)
+* [Novos e-mails de Satoshi - Martti Malmi](https://mmalmi.github.io/satoshi/)
 * [GiveCrypto doa $3.6M para Brink para financiar Bitcoin Core Development](https://twitter.com/bitcoinbrink/status/1758544229721120870)
 * [Braiins integra payouts via Lightning](https://twitter.com/BraiinsMining/status/1760319741560856983)
 * [Marathon anuncia Slipstream](https://ir.mara.com/news-events/press-releases/detail/1343/marathon-digital-holdings-launches-slipstream) ([Amostra 1](https://twitter.com/mononautical/status/1760746059956187414)) / ([Amostra 2](https://twitter.com/mononautical/status/1760746059956187414))
@@ -26,9 +28,10 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/298872566
 
 ## Tópicos
 
-* [Novos e-mails de Satoshi - Adam Back](https://bitcoinmagazine.com/technical/bitcoin-adam-backs-complete-emails-satoshi-nakamoto)
-* [Novos e-mails de Satoshi - Martti Malmi](https://mmalmi.github.io/satoshi/)
+* [Revisitando o BIP21](https://delvingbitcoin.org/t/revisiting-bip21/630)
+* [Backups no GitLabs do Bitcoin Core](https://delvingbitcoin.org/t/revisiting-bip21/630)
 * [Finalizada Spec de Dual Funding na Lightning](https://github.com/lightning/bolts/pull/851)
+* [Eclair v0.10.0 Dual Funding e Bolt 12](https://github.com/ACINQ/eclair/blob/master/docs/release-notes/eclair-v0.10.0.md)
 * [v3 transaction policy for anti-pinning - PR merged](https://github.com/bitcoin/bitcoin/pull/28948)
 * [Block Stalling Bug no Core - Corrigido na v22.0](https://delvingbitcoin.org/t/block-stalling-issue-in-core-prior-to-v22-0/499)
 * [CTV Playground](https://ctv.ursus.camp)
