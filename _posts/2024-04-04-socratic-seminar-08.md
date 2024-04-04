@@ -1,7 +1,7 @@
 ---
 layout: post
 type: socratic
-title: "Seminário Socrático 023"
+title: "Seminário Socrático #08"
 meetup: https://www.meetup.com/clube-bitcoin-floripa/events/299918239/
 ---
 
