@@ -1,7 +1,7 @@
 ---
 layout: post
 type: socratic
-title: "Seminário Socrático #10"
+title: "Seminário Socrático #11"
 meetup: https://www.meetup.com/clube-bitcoin-floripa/events/301972401/
 ---
 
@@ -18,15 +18,15 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/301972401/
 ## Cronograma
 
 ### Aquecimento
+- [OpenSats Announces 5th Wave of Bitcoin Grants](https://www.nobsbitcoin.com/opensats-announces-5th-wave-of-bitcoin-grants/)
+- ['RegreSSHion' Vulnerability in OpenSSH](https://www.nobsbitcoin.com/regresshion-vulnerability-in-openssh/)
 - [Julian Assange to End 14-Year Prosecution with a Guilty Plea in Exchange for Freedom](https://www.nobsbitcoin.com/julian-assange-to-end-12-year-us-prosecution-with-a-guilty-plea-in-exchange-for-freedom/)
 - [Nubank Partners with Lightspark for Lightning and UMA](https://www.lightspark.com/news/nubank-announcement)
-- [Volt Wallet: A Modern Descriptor-based Financial Freedom Bitcoin Wallet](https://www.nobsbitcoin.com/volt-wallet/)
-- [Windows will start to print the screen](https://support.microsoft.com/pt-br/windows/copilot-no-windows-seus-dados-e-privacidade-3e265e82-fc76-4d0a-afc0-4a0de528b73a)
+- [Phoenix BOLT12 support](https://x.com/PhoenixWallet/status/1808547081214439494)
 
 ### Bitcoin
+- [Bitcoin Core Introduces New Security Disclosure Policy](https://bitcoincore.org/en/security-advisories/)
 - [Burak Introduces Ark v2 with Liquidity-efficient Design](https://brqgoo.medium.com/introducing-ark-v2-2e7ab378e87b)
-- [Proof-of-work based signet faucet with `OP_CAT`](https://delvingbitcoin.org/t/proof-of-work-based-signet-faucet/937)
-- [Payjoin Release v0.17.0](https://github.com/payjoin/rust-payjoin/releases/tag/payjoin-0.17.0)
 - [How Silent Payments Work](https://medium.com/@ottosch/how-silent-payments-work-41bea907d6b0)
 - [BitcoinJ ran out of space (12-byte SIGNED integer) to encode chain work data](https://github.com/bitcoinj/bitcoinj/issues/3410)
 
@@ -37,13 +37,9 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/301972401/
 - [proof-of-concept (POC) test last month with stable channels and Cashu mints](https://primal.net/e/note14k6pzdkpt6yw7n3tum6zk270kr0wea5f7xtjl3vj6u6qkxuhjzasj44vez)
 
 ### Lightning
-- Amboss Lightning Decoder
-  - [https://primal.net/e/note16qlmfdj0tjadvtq8vuwwxa3zuvvs4l9m77ryrq7ttm2xd9vj0g4sfy7tnj](https://primal.net/e/note16qlmfdj0tjadvtq8vuwwxa3zuvvs4l9m77ryrq7ttm2xd9vj0g4sfy7tnj)
-  - [https://amboss.space/lightning-decoder](https://amboss.space/lightning-decoder)
-- A new BOLT12 website
-  - [https://bolt12.org/](https://bolt12.org/)
-  - [https://primal.net/e/note1w6wh63r82chfz7g5rkzpfs9wh6z57qq2xa0llmsqxd606h9h4rcqffv2e4](https://primal.net/e/note1w6wh63r82chfz7g5rkzpfs9wh6z57qq2xa0llmsqxd606h9h4rcqffv2e4)
 - [DoS: LND Onion Bomb](https://morehouse.github.io/lightning/lnd-onion-bomb/)
+- [Amboss Lightning Decoder](https://amboss.space/lightning-decoder)
+- [A new BOLT12 website](https://bolt12.org/)
 
 ### Cryptography
 - [Proposing a P2QRH BIP towards a quantum resistant soft fork](https://delvingbitcoin.org/t/proposing-a-p2qrh-bip-towards-a-quantum-resistant-soft-fork/956)
