@@ -25,7 +25,7 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/302508712/
 * [Assinatura de transações com Yubikey](https://vxtwitter.com/Nneuman/status/1816862638900658562)
 
 ### Bitcoin
-- [Super weird Bitcoin transaction](https://stacker.news/items/593226)
+- [Super weird Bitcoin transaction](https://stacker.news/items/600187)
 - [BIP353](https://bips.dev/353/)
 - [Análise de dados empíricos de previsores de taxas para estimativa de taxas mais rápidas (próximo bloco)](https://delvingbitcoin.org/t/empirical-data-analysis-of-fee-rate-forecasters-for-asap-next-block-fee-estimation/1022)
 * [Por que precisamos reestruturar a mempool para implementar o cluster mempool?](https://bitcoin.stackexchange.com/questions/123682/why-is-restructure-of-mempool-required-with-cluster-mempool)
