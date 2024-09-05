@@ -30,6 +30,12 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/303190907
 - [F Mutiny Wallet](https://blog.mutinywallet.com/mutiny-wallet-is-shutting-down/)
 - [Mempool v3.0.0](https://x.com/mempool/status/1828057401968533629)
 
+### Todo mes um side channel attack diferente
+
+* [EUCLEAK](https://ninjalab.io/eucleak/)
+* [Yubikey](https://www.nobsbitcoin.com/older-yubikeys-vulnerable-to-cloning-attacks/)
+* [Trezor](https://x.com/Trezor/status/1831256973242716623)
+
 ### Bitcoin Stack Exchange (Bate Bola Jogo Rapido)
 
 - [Why some bech32 addresses cointain a structure with a large number of "q"?](https://bitcoin.stackexchange.com/questions/123902/why-some-bech32-bitcoin-addresses-contain-a-structure-with-a-large-number-of-q)
