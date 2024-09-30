@@ -24,7 +24,13 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/303649802
     - [BitcoinTalk post](https://bitcointalk.org/index.php?topic=5218972.1060)
 * [10101 wind down](https://www.nobsbitcoin.com/10101-to-wind-down-operations-by-november-3rd/)
 * [Samourai wallet fork](https://www.nobsbitcoin.com/ashigaru-v1-0-0/)
-* [Krux new pre-release](https://github.com/selfcustody/krux/releases/tag/v24.09.0)
+* [OCEAN - DATUM](https://ocean.xyz/docs/datum)
+
+### Q&A
+
+* [What specific verifications are done on a fresh Bitcoin TX and in what order?](https://bitcoin.stackexchange.com/questions/124221/what-specific-verifications-are-done-on-a-fresh-bitcoin-tx-and-in-what-order)
+* [Bitcoin Core 28 Tests (testmempoolaccept rejected but submitpackage accepted)](https://bitcoin.stackexchange.com/questions/124269/bitcoin-core-28-tests-testmempoolaccept-rejected-but-submitpackage-accepted)
+* [How does ban score algorithm calculate ban score for a node?](https://bitcoin.stackexchange.com/questions/117227/how-does-ban-score-algorithm-calculate-ban-score-for-a-node)
 
 ### Bitcoin
 
@@ -46,4 +52,5 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/303649802
 
 ### Cryptography
 
+* [Shielded CSV](https://mailing-list.bitcoindevs.xyz/bitcoindev/b0afc5f2-4dcc-469d-b952-03eeac6e7d1b@gmail.com/)
 * [Proving UTXO set inclusion in zero knowledge](https://delvingbitcoin.org/t/proving-utxo-set-inclusion-in-zero-knowledge/1142)
