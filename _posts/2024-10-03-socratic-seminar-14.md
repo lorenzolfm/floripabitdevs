@@ -20,6 +20,7 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/303649802
 ### Aquecimento
 
 * [Programa de capacitação da Vinteum](https://medium.com/vinteum-org/bitcoin-dev-launchpad-programa-de-aceleração-de-desenvolvedores-open-source-de-bitcoin-no-brasil-bfff58887153)
+* [Fedimint SDK](https://github.com/fedimint/fedimint-web-sdk)
 * [Alguém conseguiu resolver o puzzle 66 do private key finder](https://privatekeyfinder.io/bitcoin-puzzle/)
     - [BitcoinTalk post](https://bitcointalk.org/index.php?topic=5218972.1060)
 * [10101 wind down](https://www.nobsbitcoin.com/10101-to-wind-down-operations-by-november-3rd/)
