@@ -23,6 +23,7 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/304512861
 * [Send Bitcoin to anyone that has an email address. (It uses MPC)](https://emailbtc.net/)
 * [Alpen Labs launches vanilla bitcoin signet with a BitVM-based bridge and Zero-knowledge commitments on-chain](https://www.stratabtc.org)
     * [Strata: work-in-progress EVM-compatible validity rollup on bitcoin](https://x.com/Strata_BTC/status/1841140951315857437)
+* [OP_NEXT recordings](https://blockspace.media/opnext-bitcoin-scaling/)
 
 ## Bitcoin
 
