@@ -37,6 +37,7 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/304512861
 ### Lightning
 
 * [LN Summit 2024 summary](https://delvingbitcoin.org/t/ln-summit-2024-notes-summary-commentary/1198)
+* [Payment Censorship in the Lightning Network Despite Encrypted Communication](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2024.12])
 
 ### Cryptography
 
