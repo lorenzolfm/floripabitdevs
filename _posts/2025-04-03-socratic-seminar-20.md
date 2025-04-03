@@ -20,6 +20,7 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/307028918/
 ### Warmup
 
 * [Vinteum Mastering Seminars](https://vinteum.org/mastering/)
+* [MIT Hackathon](https://mitbitcoin.devpost.com/)
 * Fedimint Workshop next week!
 * [Bitcoin Mailing list temporarily banned from Google](https://xcancel.com/callebtc/status/1907491265328927126)
 * [LN Roulette – A Lightning-Powered, Provably Fair Roulette Game](https://stacker.news/items/836563)
