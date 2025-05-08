@@ -19,6 +19,7 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/307588245
 
 ### Warmup
 
+* [MIT Bitcoin Hackthon has a brazillian winner (and he is here)](https://devpost.com/software/tanos)
 * [Make the payment secret mandatory for BOLT11](https://github.com/lightning/bolts/pull/1242)
 * [Puzzle 69 solved and stolen](https://mempool.space/pt/tx/a52c5046f3097a8c2bd3b9889df2fb47b104d47a16cc679d3357feec003db753)
 * [Someone inscribed this 3.7MB bitcoin music track via slipstream](https://x.com/mononautical/status/1906647846398640531)
