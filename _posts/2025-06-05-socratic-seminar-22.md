@@ -19,6 +19,7 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/308186108
 
 ### Warmup
 
+- [btcmesh](https://github.com/eddieoz/btcmesh)
 - [First mainnet use of the Taproot Annex](https://xcancel.com/mononautical/status/1921180666831499737)
     - [A second JPEG has hit the annex](https://xcancel.com/mononautical/status/1921557253368295733)
 - [Is selfish mining still an option](https://bitcoin.stackexchange.com/questions/49515/is-selfish-mining-still-an-option-with-compact-blocks-and-fibre)
