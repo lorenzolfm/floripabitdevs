@@ -39,6 +39,7 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/308670591
 
 * [Witnessless sync for pruned nodes](https://delvingbitcoin.org/t/witnessless-sync-for-pruned-nodes/1742/1)
 * [Non-confiscatory transaction weight limit](https://delvingbitcoin.org/t/non-confiscatory-transaction-weight-limit/1732)
+* [Bitcoin Snapshots - signed and pre-synced UTXO Set torrent](https://bitcoin-snapshots.jaonoctus.dev/)
 
 ### Mining
 
