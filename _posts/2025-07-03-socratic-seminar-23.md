@@ -14,6 +14,7 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/308670591
 ## Agradecimentos
 
 - Agradecemos à [Vinteum](https://vinteum.org/) pelo apoio.
+- 1o [Rust Floripa](https://lu.ma/p0umq6vm?tk=tGwsy9) dia 17/07.
 
 ## Cronograma
 
@@ -21,15 +22,10 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/308670591
 
 * Relay Policy Wars
     * [Bitcoin Core development and transaction relay policy](https://bitcoincore.org/en/2025/06/06/relay-statement/)
-    * Tx passando com 0.1 sat/vB
-        * [FREE SAMOURAI](https://xcancel.com/ottosch_/status/1935712233230639176)
-        * [Degent](https://xcancel.com/mononautical/status/1936223502446522613)
+    * 0.1 sat/vbyte transactions being relayed and mined, like [this one](https://xcancel.com/ottosch_/status/1935712233230639176) and [this one](https://xcancel.com/mononautical/status/1936223502446522613)
     * [Filter Bitcoin Knots](https://xcancel.com/aeonBTC/status/1936838919833919853)
-        * [Repo](https://github.com/aeonBTC/Knots-Banlist)
     * [The case for privatizing Bitcoin Core](https://mailing-list.bitcoindevs.xyz/bitcoindev/CABaSBax-meEsC2013zKYJnC3phFFB_W3cHQLroUJcPDZKsjB8w@mail.gmail.com/)
-
 * [CTV-CSFS Activation Open Letter](https://ctv-csfs.com/)
-
 * [Wallet of Satoshi - Self Custodial mode (?)](https://xcancel.com/spark/status/1940168641301119094)
     * [Spark TL;DR](https://docs.spark.money/spark/spark-tldr)
     * [Statechains](https://bitcoinops.org/en/topics/statechains/)
