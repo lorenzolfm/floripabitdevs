@@ -19,12 +19,6 @@ title: "Seminário Socrático #28"
 
 ### Warmup
 
-* [stopatheight fix](https://github.com/bitcoin/bitcoin/pull/33993)
-* [raw₿it -- Visual Raw Transaction Builder & Script Debugger](https://rawbit.io/)
-* [BIP3 Merged](https://github.com/bitcoin/bips/pull/2051)
-* [Peer Observer: New monitoring tool (log extractor)](https://github.com/peer-observer/peer-observer/pull/272)
-* [Balanço do retreat de DIY HWW na Casa21](https://xcancel.com/sesi_the_man/status/1991235936638685331?s=20)
-* [Utreexo swift sync](https://github.com/utreexo/utreexod/pull/348)
 * [Sigbash v2](https://x.com/arbedout/status/2020885323778044259)
 * [Nunchuck silent payments support](https://x.com/nunchuk_io/status/2021588854969414119)
 * [Mastering Taproot](https://github.com/aaron-recompile/mastering-taproot)
@@ -34,19 +28,13 @@ title: "Seminário Socrático #28"
 ### Bitcoin
 
 * [Incremental mutation testing in Bitcoin Core](https://delvingbitcoin.org/t/incremental-mutation-testing-in-the-bitcoin-core/2197)
+* [Bitcoin PIPEs v2: Covenants and ZKPs on the Bitcoin L1 via Witness Encryption](https://delvingbitcoin.org/t/bitcoin-pipes-v2/2249)
 * [Cluster Mempool Implementation PR Merged](https://github.com/bitcoin/bitcoin/pull/33629)
 * [Broadcast own transactions only via short-lived Tor or I2P connections](https://github.com/bitcoin/bitcoin/pull/29415)
 * [Was the P2SH upgrade confiscatory?](https://xcancel.com/SuperTestnet/status/2001041017315701198)
 * [rpc,net: Add private broadcast RPCs](https://github.com/bitcoin/bitcoin/pull/34329)
-* [fees: enable CBlockPolicyEstimator return sub 1 sat/vb fee rate estimates](https://github.com/bitcoin/bitcoin/pull/33199)
 * [Silent payments scanning adversarial performance issue (BIP-352)](https://groups.google.com/g/bitcoindev/c/tgcAQVqvzVg/m/--CkDP2xBQAJ)
-* [BLISK: Boolean circuit Logic Integrated into the Single Key](https://delvingbitcoin.org/t/blisk-boolean-circuit-logic-integrated-into-the-single-key/2217)
 * [Hornet UTXO(1): A custom, constant-time, highly parallel UTXO database](https://delvingbitcoin.org/t/hornet-utxo-1-a-custom-constant-time-highly-parallel-utxo-database/2201)
-* [Bithoven: A Formally Verified, Imperative Smart Contract Language for Bitcoin](https://delvingbitcoin.org/t/bithoven-a-formally-verified-imperative-smart-contract-language-for-bitcoin/2189)
-* [Bitcoin PIPEs v2: Covenants and ZKPs on the Bitcoin L1 via Witness Encryption](https://delvingbitcoin.org/t/bitcoin-pipes-v2/2249)
-* [BIP446 OP_TEMPLATEHASH implementation on Inquisition](https://github.com/bitcoin-inquisition/bitcoin/pull/100)
-* [Hourglass V2](https://groups.google.com/g/bitcoindev/c/0E1UyyQIUA0)
-* [ARK as a channel factory](https://delvingbitcoin.org/t/ark-as-a-channel-factory-compressed-liquidity-management-for-improved-payment-feasibility/2179)
 * [hArk: async VTXO claims](https://x.com/2ndbtc/status/2015401100355002626)
 * [Quantum Resistance with Covenants](https://groups.google.com/g/bitcoindev/c/Sl9qQOuuAoI)
 * [Nested Musig2 paper](https://eprint.iacr.org/2026/223)
