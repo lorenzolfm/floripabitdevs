@@ -44,6 +44,7 @@ meetup: https://app.evento.so/e/evt_YDLcytYw6wTxNGgo
 
 * [A Decade of Workarounds](https://spiralbtc.substack.com/p/a-decade-of-workarounds) 
 * [Lightning Economics](https://zeusln.com/Lightning_Economics_Report_April_2026.pdf)
+* [BRLN OS Light](https://github.com/jvxis/brln-os-light)
 
 ### Quantum
 
