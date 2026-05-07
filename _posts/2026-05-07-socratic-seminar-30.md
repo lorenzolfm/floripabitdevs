@@ -21,6 +21,7 @@ meetup: https://app.evento.so/e/evt_YDLcytYw6wTxNGgo
 
 * [Floresta release v0.9.0](https://www.getfloresta.org/blog/release-v0.9.0)
 * [Mandacaru: A Validator Bitcoin node in your phone](https://github.com/jvsena42/mandacaru)
+* [Two new security advisories, regarding vulnerabilities that have been fixed in Electrum 4.7.2](https://xcancel.com/ElectrumWallet/status/2049500846014992672)
 
 ### Bitcoin
 
