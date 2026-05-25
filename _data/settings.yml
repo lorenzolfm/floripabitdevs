@@ -5,4 +5,4 @@ menu:
   - {name: 'Sobre', url: '/about'}
   - {name: 'Eventos', url: '/events'}
   - {name: 'Meetup', url: 'https://meetup.com/pt-BR/floripa-bitdevs', external: true}
-  - {name: 'Outras Cidades', url: '/cities'}
+  - {name: 'Cidades', url: '/cities'}
