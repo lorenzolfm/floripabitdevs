@@ -19,7 +19,6 @@ meetup: https://app.evento.so/e/evt_yYgosLvpCsSnWSEg
 
 ### Aquecimento
 
-* [Tradução PT-BR para o site learn me a bitcoin](https://meaprendeumbitcoin.com.br/)
 * [Public Pool added Stratum V2 Support](https://x.com/StratumV2/status/2062959948720447919)
 * [Viena Lightning Spec Summit](https://github.com/lightning/bolts/issues/1329)
 
@@ -35,7 +34,6 @@ meetup: https://app.evento.so/e/evt_yYgosLvpCsSnWSEg
 
 ### Segurança
 
-* [Zcash e os perigos da opacificação na camada base](https://gizmodo.com/zcash-bug-could-have-let-attackers-print-cryptocurrency-out-of-thin-air-2000767790)
 * [LND: Zero-Timestamp Gossip DoS disclosure](https://delvingbitcoin.org/t/lnd-zero-timestamp-gossip-dos-disclosure/2621)
 * [Trezor's TROPIC01 chip vulnerability disclosure](https://trezor.io/blog/news/Trezor-response-TROPIC01-chip-disclosure-no-impact-to-your-funds)
 * [2 vulnerabilities in bark to steal funds](https://uncensoredtech.substack.com/p/2-vulnerabilities-in-bark-to-steal)
