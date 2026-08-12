@@ -39,3 +39,10 @@ meetup: https://app.evento.so/e/evt_zLAvcB9S9Cnn4Bt5
 * [btcpay server hack](https://x.com/BtcpayServer/status/2085755643659522240)
 * [Disclosure of two DoS vulnerabilities in Core Lightning](https://delvingbitcoin.org/t/vulnerability-disclosure-twin-memory-exhaustion-dos-vulnerabilities-in-core-lightning/2731)
 
+## Layer 2
+
+- [LDK async payments: receiving while offline](https://lightningdevkit.org/blog/async-payments-receiving-while-offline)
+- [Non-custodial accounts in Blink wallet](https://pt-br.blink.sv/blog/non-custodial-accounts-in-blink-wallet)
+- [Agent to Agent payments](https://x.com/lightningmodeAI/status/2053944023036141677)
+- [Ark unilateral exits from Noah wallet](https://x.com/stutxo/status/2077125607058719097)
+- [0-Conf for Elements and Liquid: A Technical Explainer](https://blog.liquid.net/0-conf-for-elements-and-liquid-a-technical-explainer/)
