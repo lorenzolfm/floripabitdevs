@@ -33,6 +33,7 @@ meetup: https://app.evento.so/e/evt_rLEVjxmokYr9Wodz
 
 ### Layer 2
 
+* [Liquid hack](https://x.com/Liquid_BTC/status/2097404704028545175)
 * [CLN Security Update](https://x.com/Core_LN/status/2088046083280879974)
 * [Ark Protocol Explainers](https://www.ellemouton.com/posts/ark-vtxos-and-trees/)
 * [Conditional message transfer contract to solve jamming](https://delvingbitcoin.org/t/conditional-message-transfer-contract-to-solve-jamming/2772/2)
