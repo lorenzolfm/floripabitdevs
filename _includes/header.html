@@ -1,19 +1,19 @@
 <header class="Header">
   <div class="Header-inner">
     <div class="Header-logo">
-      <a href="{{ '/' | relative_url }}" aria-label="{{ site.data.settings.title }}">
-        <img src="{{ '/public/images/logo.svg' | relative_url }}" alt="Logo {{ site.data.settings.title }}" class="Header-logo-image">
-        <span class="Header-logo-text">{{ site.data.settings.title }}</span>
+      <a href="/" aria-label="{{ site.title }}">
+        <img src="/public/images/logo.svg" alt="Logo {{ site.title }}" class="Header-logo-image">
+        <span class="Header-logo-text">{{ site.title }}</span>
       </a>
     </div>
     <nav class="Header-nav">
-      {% for item in site.data.settings.menu %}
+      {% for item in site.menu %}
         {% if item.external %}
         <a href="{{ item.url }}" target="_blank" rel="noopener nofollow">
             {{ item.name }}
         </a>
         {% else %}
-          <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+          <a href="{{ item.url }}">{{ item.name }}</a>
         {% endif %}
       {% endfor %}
       <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">

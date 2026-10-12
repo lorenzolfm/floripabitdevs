@@ -1,0 +1,27 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="{{ site.url }}/" rel="alternate" type="text/html" />
+  {%- assign latest_post = collections.posts | last %}
+  <updated>{{ latest_post.date | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/feed.xml</id>
+  <title type="html">{{ site.title }}</title>
+  <subtitle>{{ site.description }}</subtitle>
+  {%- assign posts = collections.posts | reverse %}
+  {%- for post in posts limit: 10 %}
+  {%- assign post_url = post.url | pretty_url | prepend: site.url %}
+  <entry>
+    <title type="html">{{ post.data.title | escape }}</title>
+    <link href="{{ post_url }}" rel="alternate" type="text/html" title="{{ post.data.title | escape }}" />
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    {%- comment %} Same entry ids jekyll-feed used, so readers don't see old posts as new. {% endcomment %}
+    <id>{{ site.url }}/{{ post.fileSlug }}</id>
+    <content type="html" xml:base="{{ post_url }}"><![CDATA[{{ post.content }}]]></content>
+  </entry>
+  {%- endfor %}
+</feed>

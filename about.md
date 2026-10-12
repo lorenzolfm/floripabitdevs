@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Sobre
+permalink: /about.html
 ---
 
 BitDevs é uma comunidade para aqueles interessados em discutir e participar da pesquisa
