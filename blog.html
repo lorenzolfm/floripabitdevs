@@ -1,17 +1,19 @@
 ---
 layout: default
 title: Blog Posts
+permalink: /blog.html
 ---
 
 <div class="Home">
   <div class="Home-posts">
     <h2 class="Home-posts-title">Blog Posts</h2>
-    {% for post in site.posts %}
-      {% if post.type == "blog" %}
+    {% assign posts = collections.posts | reverse %}
+    {% for post in posts %}
+      {% if post.data.type == "blog" %}
         <div class="Home-posts-post">
           <span class="Home-posts-post-date">{{ post.date | date_to_string }}</span>
           <span class="Home-posts-post-arrow">&raquo;</span>
-          <a class="Home-posts-post-title" href="{{ post.url }}">{{ post.title }}</a>
+          <a class="Home-posts-post-title" href="{{ post.url | pretty_url }}">{{ post.data.title }}</a>
         </div>
       {% endif %}
     {% endfor %}

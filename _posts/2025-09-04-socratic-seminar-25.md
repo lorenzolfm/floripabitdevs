@@ -30,7 +30,7 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/310749036
 * [Scrambled 12 words are not enough security](https://x.com/patocambial/status/1956325459488112822)
 * [BIS quer dar notas pros UTXO's](https://x.com/livecoinsbr/status/1956059468782817391)
 * [Utreexo BIPs](https://github.com/utreexo/biptreexo)
-* [policy: lower the default blockmintxfee, incrementalrelayfee, minrelaytxfee](bitcoin/bitcoin#33106)
+* [policy: lower the default blockmintxfee, incrementalrelayfee, minrelaytxfee](https://github.com/bitcoin/bitcoin/pull/33106)
 * [Sharing block templates](https://delvingbitcoin.org/t/sharing-block-templates/1906)
     * [Draft BIP for block template sharing](https://github.com/ajtowns/bips/blob/202508-sendtemplate/bip-ajtowns-sendtemplate.md)
 * [Trusted delegation of script evaluation](https://delvingbitcoin.org/t/confidential-script-emulate-soft-forks-using-stateless-tees/1918/)

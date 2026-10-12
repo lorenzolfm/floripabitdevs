@@ -13,12 +13,13 @@ title: Home
         <h2 class="Home-posts-title">Eventos recentes e próximos</h2>
         {% assign event_posts = 7 %}
         {% assign counter = 0 %}
-        {% for post in site.posts %}
-        {% if post.type == "socratic" or post.type == "whitepaper"%}
+        {% assign posts = collections.posts | reverse %}
+        {% for post in posts %}
+        {% if post.data.type == "socratic" or post.data.type == "whitepaper"%}
         <div class="Home-posts-post">
             <span class="Home-posts-post-date">{{ post.date | date_to_string }}</span>
             <span class="Home-posts-post-arrow">&raquo;</span>
-            <a class="Home-posts-post-title" href="{{ post.url }}">{{ post.title }}</a>
+            <a class="Home-posts-post-title" href="{{ post.url | pretty_url }}">{{ post.data.title }}</a>
         </div>
         {% assign counter = counter | plus: 1 %}
         {% if counter == event_posts %}

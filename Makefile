@@ -1,9 +1,8 @@
 all: build
 
 preview:
-	bundle exec jekyll clean
-	bundle exec jekyll serve --future --drafts --unpublished --incremental
+	npm start
 
 build:
-	bundle exec jekyll clean
-	bundle exec jekyll build --future --drafts --unpublished
+	rm -rf _site
+	npm run build

@@ -36,5 +36,5 @@ meetup: https://www.meetup.com/clube-bitcoin-floripa/events/310298782
 ### L2
 
 * [💥🔫 Glock: A new standard for verification on Bitcoin](https://xcancel.com/alpenlabs/status/1945112781168238789?s=46&t=_bcnKDRvtUHHcJ1wRUxBpw)
-* [Say goodbye to expiry headaches in Ark-based protocols!](Say goodbye to expiry headaches in Ark-based protocols!)
+* [Say goodbye to expiry headaches in Ark-based protocols!](<Say goodbye to expiry headaches in Ark-based protocols!>)
 * [Alby hub v1.18 with BOLT12 support](https://x.com/getAlby/status/1945849199423295977)

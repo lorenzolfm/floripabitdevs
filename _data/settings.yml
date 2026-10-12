@@ -1,8 +1,0 @@
-title: 'Floripa Bitdevs'
-tagline: 'BitDevs é uma comunidade para aqueles interessados em discutir e participar da pesquisa e desenvolvimento do Bitcoin e protocolos relacionados.'
-
-menu:
-  - {name: 'Sobre', url: '/about'}
-  - {name: 'Eventos', url: '/events'}
-  - {name: 'Meetup', url: 'https://meetup.com/pt-BR/floripa-bitdevs', external: true}
-  - {name: 'Cidades', url: '/cities'}
