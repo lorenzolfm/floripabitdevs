@@ -1,7 +1,7 @@
 ---
 layout: post
 type: socratic
-title: "Seminário Socrático 30"
+title: "Seminário Socrático #30"
 meetup: https://app.evento.so/e/evt_YDLcytYw6wTxNGgo
 ---
 
