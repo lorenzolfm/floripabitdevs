@@ -1,0 +1,26 @@
+---
+layout: default
+title: Tópicos
+permalink: /topics/index.html
+---
+
+<div class="Home">
+    <p class="Home-about">
+        Tudo o que já discutimos nos seminários, organizado por assunto. Cada tópico reúne os itens
+        de todos os encontros em que ele apareceu.
+    </p>
+
+    {% assign categories = collections.topics | topic_categories %}
+    {% for category in categories %}
+    <div class="Home-posts" id="{{ category.name | slugify }}">
+        <h2 class="Home-posts-title">{{ category.name }}</h2>
+        {% for topic in category.topics %}
+        {% assign discussions = collections.posts | topic_discussions: collections.topics, topic.fileSlug %}
+        <div class="Home-posts-post">
+            <a class="Home-posts-post-title" href="{{ topic.url | pretty_url }}">{{ topic.data.title }}</a>
+            <span class="Home-posts-post-date">({{ discussions.size }})</span>
+        </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
