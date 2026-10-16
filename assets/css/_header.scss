@@ -1,3 +1,6 @@
+// The logo and the menu only fit side by side from this width.
+$header-row-screen: 840px;
+
 .Header {
   margin-bottom: 0.75rem;
   position: relative;
@@ -18,7 +21,7 @@
     max-width: 400px;
     margin: 0 auto;
 
-    @media (min-width: 768px) {
+    @media (min-width: $header-row-screen) {
       max-width: 100%;
       flex-direction: row;
       padding: 0.5rem 0;
@@ -32,7 +35,7 @@
     position: relative;
     margin-bottom: 1rem;
 
-    @media (min-width: 768px) {
+    @media (min-width: $header-row-screen) {
       font-size: 2.2rem;
       margin-bottom: 0;
     }
@@ -50,7 +53,7 @@
     position: absolute;
     top: -5px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $header-row-screen) {
       top: -2px
     }
   }
@@ -59,7 +62,7 @@
     margin-left: 5rem;
     font-size: 2.1rem;
     white-space: nowrap;
-    @media (min-width: 768px) {
+    @media (min-width: $header-row-screen) {
       margin-left: 4.5rem;
     }
   }
@@ -72,8 +75,11 @@
     justify-content: space-between;
     margin-top: 0.5rem;
 
-    @media (min-width: 768px) {
-      font-size: 1.3rem;
+    @media (max-width: $small-screen) {
+      font-size: 1rem;
+    }
+
+    @media (min-width: $header-row-screen) {
       width: auto;
       justify-content: flex-start;
       margin-top: 0;
@@ -82,12 +88,12 @@
     a {
       color: var(--font-color);
       opacity: 0.4;
-      margin-right: 1rem;
+      margin-right: 0.5rem;
       white-space: nowrap;
 
-      @media (min-width: 768px) {
+      @media (min-width: $header-row-screen) {
         margin-right: 0;
-        margin-left: 1.5rem;
+        margin-left: 1rem;
       }
 
       &:last-child {
@@ -97,6 +103,12 @@
       &:hover {
         color: var(--primary-color);
         opacity: 1;
+      }
+    }
+
+    .theme-toggle {
+      @media (min-width: $header-row-screen) {
+        margin-left: 1.75rem;
       }
     }
   }

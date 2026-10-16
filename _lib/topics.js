@@ -87,6 +87,17 @@ export function markdownItTopics(md, topicsFor) {
   });
 }
 
+// How a token changes link nesting. Inline HTML <a> tags count too, tested the way markdown-it
+// tests them for linkify.
+function linkDepthChange(token) {
+  if (token.type === "link_open") return 1;
+  if (token.type === "link_close") return -1;
+  if (token.type !== "html_inline") return 0;
+  if (/^<a[>\s]/i.test(token.content)) return 1;
+  if (/^<\/a\s*>/i.test(token.content)) return -1;
+  return 0;
+}
+
 // Links the first mention of each topic in a paragraph or list item. Links can't nest, so a
 // topic named inside a link (the usual case: "* [Silent Payments light clients](...)") gets a
 // tag after the item instead.
@@ -105,8 +116,7 @@ function linkTopics(children, topics, Token) {
   };
 
   for (const child of children) {
-    if (child.type === "link_open") linkDepth++;
-    if (child.type === "link_close") linkDepth--;
+    linkDepth += linkDepthChange(child);
     if (child.type !== "text") {
       out.push(child);
       continue;
