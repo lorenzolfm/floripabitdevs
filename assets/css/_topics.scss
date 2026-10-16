@@ -1,0 +1,42 @@
+// A topic named in plain text is linked in place.
+.Topic-link {
+  border-bottom: 1px dotted currentColor;
+}
+
+// A topic named inside a link gets a tag after the item instead.
+.Topic-tags {
+  font-size: 0.8em;
+}
+
+.Topic-tag {
+  color: var(--font-color);
+  opacity: 0.5;
+  white-space: nowrap;
+
+  &:hover {
+    color: var(--primary-color);
+    opacity: 1;
+  }
+}
+
+.Topic {
+  .Post-content {
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    margin-top: 2rem;
+  }
+}
+
+.Topic-discussion {
+  margin-bottom: 1.5rem;
+
+  ul {
+    margin-top: 0.25rem;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+}

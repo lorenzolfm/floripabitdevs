@@ -5,6 +5,7 @@
   "menu": [
     { "name": "Sobre", "url": "/about" },
     { "name": "Eventos", "url": "/events" },
+    { "name": "Tópicos", "url": "/topics/" },
     { "name": "Meetup", "url": "https://meetup.com/pt-BR/floripa-bitdevs", "external": true },
     { "name": "Cidades", "url": "/cities" }
   ]

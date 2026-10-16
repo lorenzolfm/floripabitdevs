@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+{% assign discussions = collections.posts | topic_discussions: collections.topics, page.fileSlug %}
+<section>
+    <div class="Post Topic">
+        <h1 class="Post-title">{{ title }}</h1>
+        <div class="Post-info">
+            {% for category in categories %}
+            <span><a href="/topics/#{{ category | slugify }}">{{ category }}</a></span>
+            {% endfor %}
+        </div>
+        <div class="Post-content">{{ content }}</div>
+
+        <h2>Discutido em {{ discussions.size }} {% if discussions.size == 1 %}encontro{% else %}encontros{% endif %}</h2>
+        {% for discussion in discussions %}
+        <div class="Topic-discussion">
+            <div class="Home-posts-post">
+                <span class="Home-posts-post-date">{{ discussion.post.date | date_to_string }}</span>
+                <span class="Home-posts-post-arrow">&raquo;</span>
+                <a href="{{ discussion.post.url | pretty_url }}">{{ discussion.post.data.title }}</a>
+            </div>
+            <ul>
+                {% for item in discussion.items %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+
+        {% if see_also %}
+        <h2>Veja também</h2>
+        <ul>
+            {% for slug in see_also %}
+            {% assign related = collections.topics | topic: slug %}
+            <li><a href="{{ related.url | pretty_url }}">{{ related.data.title }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</section>
