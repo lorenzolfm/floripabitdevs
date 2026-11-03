@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "Seminário Socrático #36"
-meetup: "" # TODO: link do evento no evento.so
+meetup: https://app.evento.so/e/evt_TTW1CBRBsM3ASzNx
 ---
 
 ## Avisos
