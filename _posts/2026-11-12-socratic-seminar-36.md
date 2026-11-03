@@ -23,6 +23,8 @@ meetup: "" # TODO: link do evento no evento.so
 * [Ibis Wallet v5.0-beta: Ark via Bark, Spark exits and silent payments](https://github.com/aeonBTC/IbisWallet/releases/tag/v5.0.1-beta)
 * [Landfall: proof-of-concept wallet for OCEAN payouts over Lightning](https://github.com/vincenzopalazzo/landfall)
 * [rbitcoin 0.8.0: an AI-written full node in Rust](https://github.com/reardencode/rbitcoin/releases/tag/v0.8.0)
+* [Binance hack: $6.3 billion stolen, attributed to North Korea](https://www.cnbc.com/2026/10/30/billions-in-crypto-frozen-in-binance-hack-heres-what-happens-next-.html)
+* [Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains](https://www.coindesk.com/business/2026/11/02/brazil-s-mercado-bitcoin-halts-withdrawals-after-usd40-million-drained-across-10-chains)
 
 ### Bitcoin
 
