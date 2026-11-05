@@ -24,6 +24,7 @@ meetup: https://app.evento.so/e/evt_TTW1CBRBsM3ASzNx
 * Bitcoin Core 32.1 released (32.0 was tagged but never shipped): [a deeper look](https://x.com/bitschmidty/status/2115542907767668850), [release notes](https://bitcoincore.org/en/releases/32.1/)
 * [rbitcoin 0.8.0: an AI-written full node in Rust](https://github.com/reardencode/rbitcoin/releases/tag/v0.8.0)
 * [Fapico2: a $5 Raspberry Pi Pico 2 as a FIDO2, OpenPGP, OATH and Nostr authenticator](https://eddieoz.com/fapico2-the-f-king-authenticator)
+* [Nut November: a month-long Cashu hackathon (Nov 1–27)](https://nutnovember.org/)
 
 ### Bitcoin
 
