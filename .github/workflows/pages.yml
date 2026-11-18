@@ -2,6 +2,10 @@ name: Deploy site to Pages
 on:
   push:
     branches: ["master"]
+  # A separação entre próximos e anteriores é decidida no build; este rebuild
+  # diário é o que tira o encontro de "Próximos eventos" depois que ele acontece.
+  schedule:
+    - cron: '17 3 * * *'
   workflow_dispatch:
 permissions:
   contents: read
