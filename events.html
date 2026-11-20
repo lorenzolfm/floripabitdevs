@@ -5,16 +5,48 @@ permalink: /events.html
 ---
 
 <div class="Home">
+    {% assign cutoff_ts = build_ts | minus: 86400 %}
+    {% assign upcoming_count = 0 %}
+    {% for post in collections.posts %}
+    {% if post.data.type == "socratic" %}
+    {% assign post_ts = post.date | event_ts %}
+    {% if post_ts > cutoff_ts %}
+    {% assign upcoming_count = upcoming_count | plus: 1 %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+
+    {% if upcoming_count > 0 %}
     <div class="Home-posts">
-        <h2 class="Home-posts-title">Seminários Socráticos</h2>
-        {% assign posts = collections.posts | reverse %}
-        {% for post in posts %}
+        <h2 class="Home-posts-title">Próximos eventos</h2>
+        {% for post in collections.posts %}
         {% if post.data.type == "socratic" %}
+        {% assign post_ts = post.date | event_ts %}
+        {% if post_ts > cutoff_ts %}
         <div class="Home-posts-post">
             <span class="Home-posts-post-date">{{ post.date | date_to_string }}</span>
             <span class="Home-posts-post-arrow">&raquo;</span>
             <a class="Home-posts-post-title" href="{{ post.url | pretty_url }}">{{ post.data.title }}</a>
         </div>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="Home-posts">
+        <h2 class="Home-posts-title">Seminários anteriores</h2>
+        {% assign posts = collections.posts | reverse %}
+        {% for post in posts %}
+        {% if post.data.type == "socratic" %}
+        {% assign post_ts = post.date | event_ts %}
+        {% if post_ts <= cutoff_ts %}
+        <div class="Home-posts-post">
+            <span class="Home-posts-post-date">{{ post.date | date_to_string }}</span>
+            <span class="Home-posts-post-arrow">&raquo;</span>
+            <a class="Home-posts-post-title" href="{{ post.url | pretty_url }}">{{ post.data.title }}</a>
+        </div>
+        {% endif %}
         {% endif %}
         {% endfor %}
     </div>

@@ -105,6 +105,11 @@ export default function (eleventyConfig) {
   });
 
   // 09 Sep 2026. Dates come from post filenames as UTC midnight, so format in UTC.
+  // Momento do build e data de cada post em epoch, para separar próximos de passados.
+  const buildTs = Math.floor(Date.now() / 1000);
+  eleventyConfig.addGlobalData("build_ts", buildTs);
+  eleventyConfig.addFilter("event_ts", (date) => Math.floor(date.getTime() / 1000));
+
   eleventyConfig.addFilter("date_to_string", (date) => {
     const day = String(date.getUTCDate()).padStart(2, "0");
     return `${day} ${MONTHS[date.getUTCMonth()]} ${date.getUTCFullYear()}`;
