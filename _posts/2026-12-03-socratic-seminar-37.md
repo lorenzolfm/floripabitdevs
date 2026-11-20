@@ -2,7 +2,7 @@
 layout: post
 type: socratic
 title: "Seminário Socrático #37"
-meetup: "" # TODO: link do evento no evento.so
+meetup: https://app.evento.so/e/evt_dqrHFwuc4oNPgujH
 ---
 
 ## Avisos
@@ -21,3 +21,4 @@ meetup: "" # TODO: link do evento no evento.so
 
 * [Hashpool: guess the next block hash over Lightning, closest guess takes the pot](https://hashpool.lorenzo.sh)
 * [Binance warns of worse_query, an iOS bug that lets malicious apps read other apps' files, seed phrases included](https://x.com/binance/status/2120093246399430770)
+* [Block: the state of bitcoin payments on Square, 72.3% from food and drink, median payment ~$13](https://block.xyz/bitcoin/payments-report)
